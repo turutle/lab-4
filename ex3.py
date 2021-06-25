@@ -18,7 +18,7 @@ if __name__ == '__main__':
             "Заданная длина должна быть больше длины предложения",
             file=sys.stderr
         )
-        exit(1)
+        exit("Process finished with exit code 1")
         
     # Разделить предложение на слова.
     words = s.split(' ')
@@ -28,7 +28,7 @@ if __name__ == '__main__':
             "Предложение должно содержать несколько слов",
             file=sys.stderr
         )
-        exit(1)
+        exit("Process finished with exit code 1")
         
     # Количество пробелов для добавления.
     delta = n
